@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+*,*:focus,*:hover{
+  outline:none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.centered{
+  text-align:center;
+}
+
+.mt-4{
+  margin-top: 2rem ;
+}
+
+.custom-hr{
+  border: 0;
+  height:0.1em;
+  background-color: lightgray;
+  margin:0.4em 0em;
+}
+
+.flash-message{
+  width:100%;
+  margin:auto;
+  padding:none;
+  padding: 10px;
+  font-size:15px;
+  text-align: center;
+}
+.success{
+  background-color: rgb(185, 241, 185);
+  color:green;
+  font-weight:600;
+}
+
+.error{
+  background:rgba(243, 144, 144, 0.8);
+  color:red;
+  margin:auto;
+  margin-top:2px;
+  border-radius:2px;
+  padding:none;
+  font-weight:600;
+  padding-left:10px;
+  font-size:15px;
+  
+}
+

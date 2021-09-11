@@ -1,0 +1,33 @@
+.cstm-frm1{
+    max-width: 40%;
+    margin:auto;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .cstm-frm1>input[type="text"],input[type="tel"]{
+    border:2px solid lightgrey;
+    border-radius:5px;
+    margin:8px 0px;
+    padding:8px;
+    font-size: 15px;
+    transition:0.2s all;
+  }
+  
+  .cstm-frm1>input[type="text"]:hover,.cstm-frm1>input[type="tel"]:hover{
+    border:2px solid dodgerblue;
+    box-shadow: 0px 0px 5px dodgerblue;
+  }
+  .cstm-frm1>select{
+    padding:9px;
+    border-radius:4px;
+    margin:10px 0px 20px 0px;
+  }
+  
+  .btn-sm{
+    width:150px;
+    margin-top: 20px;
+  }
+ 
+  

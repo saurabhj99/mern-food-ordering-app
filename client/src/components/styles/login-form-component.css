@@ -1,0 +1,122 @@
+.form-container{
+    display:flex;
+    justify-content: center;
+    margin-top:18vh;
+    width:100%;
+  }
+  
+.Login-form{
+   display:flex;
+   flex-direction:column;
+   width:27%;
+   height:47vh;
+   padding:15px;
+   justify-content: center;
+   align-items: center;
+   border:1px solid lightgray;
+   background-color:white;
+   border-radius: 15px;
+   box-shadow:0px 0px 6px rgb(99, 87, 87);
+  }
+  
+  .Login-form>div{
+    width:90%;
+    margin-top:20px;
+    
+  }
+  
+  .Login-form >div>input{
+    width:100%;
+    padding:7px;
+    outline: none;
+    height:40px;
+    padding: 18px;
+    font-size: 16px;
+    border-radius:8px;
+    border:none;
+    border:2px solid lightgray;
+  }
+  
+  .Login-form >div>input:hover{
+    border:1px solid dodgerblue;
+    box-shadow: 0px 0px 5px dodgerblue;
+  }
+  
+  .Login-form >div>button{
+    width:100%;
+    border-radius:20px;
+    padding:10px;
+    margin-bottom: 15px;
+    background-color: rgb(219, 68, 68);
+    color:white;
+    outline:none;
+    border:none;
+    font-size: 17px;
+  }
+  
+  
+  .custom-shape-divider-bottom-1612440409 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 240px;
+  }
+  
+  .custom-shape-divider-bottom-1612440409 .shape-fill {
+    fill: rgb(219, 68, 68);
+}
+
+.custom-shape-divider-bottom-1612440409 {
+    position: absolute;
+    z-index: -4;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .partner{
+    height:55vh;
+  }
+  .fgtpswd{
+    height:40vh;
+  }
+  
+  @media screen and (max-width:1200px){
+    .Login-form{
+      width: 35%;
+    }
+    
+  }
+  
+  @media screen and (max-width:900px){
+    .Login-form{
+      width: 40%;
+    }
+   
+    
+  }
+  
+  @media screen and (max-width:1000px){
+    .Login-form{
+      width: 45%;
+    }
+}
+  
+  @media screen and (max-width:768px){
+    .Login-form{
+      width: 70%;
+    }
+    
+  }
+  
+  @media screen and (max-width:500px){
+    .Login-form{
+      width: 80%;
+    }
+  }
+  
+  
+  
+  
+  
