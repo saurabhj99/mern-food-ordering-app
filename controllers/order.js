@@ -4,8 +4,7 @@ const orderController = async (req, res) => {
   const { _id } = req.currentUser
   try {
     const user = await User.findById(_id).populate("orders")
-    if (orders) {
-      console.log(orders)
+    if (user.orders) {
       res.status(200).json({ message: "success", orders:user.orders })
     } else {
       res.status(400).json({ message: "error" })
