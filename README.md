@@ -12,6 +12,7 @@ In the project directory, you can run:
 - For Client
 ` npm run client `  
 
+> 🔗 Link for the live application [Food Ordering System](https://food-ordering-mern-app.herokuapp.com/)
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
