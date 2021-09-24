@@ -4,14 +4,7 @@ const Order = require("../models/order")
 const Transaction = require("../models/transaction")
 const uuid = require("uuid")
 const { isAuthenticated } = require("../middleware")
-
-const amount = (array) => {
-  var totalAmount = 0
-  array.forEach(({ price, quantity }) => {
-    totalAmount = totalAmount + price * quantity
-  })
-  return totalAmount
-}
+const amount = require("../helper/arrayHelper")
 
 router.post("/payment", isAuthenticated, async (req, res) => {
   const { full_name, cnum, items } = req.body
